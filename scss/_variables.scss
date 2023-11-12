@@ -1,0 +1,19 @@
+
+$fuente-general: 'Roboto', sans-serif;
+$fuente-grande: 1.8rem;
+$fuente-texto: 1rem;
+$color-negro: #323030;
+$color-celeste: #ccf0f1;
+$color-amarillo:  #FEECC7;
+$color-gris-oscuro: #b6b8b8;
+$color-gris-claro: #e7e7e7;
+$color-azul-principal: #00BCC5;
+/**No realice variables de los tamaños de pixeles porque no quiero que si tengo que modificar uno me cambie todos y tener que revisar si permanecen en el lugar correcto**/
+$map-grosores-fuente:(
+    thin: 100,
+    light: 300,
+    regular: 400,
+    medium:500,
+    bold: 700,
+    black: 900,
+);

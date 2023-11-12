@@ -1,0 +1,39 @@
+
+.buttonInactive{
+    border: 1px solid $color-gris-oscuro;
+}
+.bgGrey{
+    background-color: $color-gris-claro;
+}
+.bgDark{
+    background-color: $color-negro;
+}
+.bgYellow{
+background-color: $color-amarillo;
+}
+.bgLightblue{
+    background-color: $color-celeste;
+}
+.bordeNav{
+    border: 1px solid $color-azul-principal;
+}
+.colorAzulFuente{
+    color: $color-azul-principal;
+}
+.spanP{
+    font-weight: map-get($map-grosores-fuente, bold );
+}
+.confirmacionNav{
+    background-color: $color-azul-principal;
+    box-shadow: 0px 5px 20px -11px $color-azul-principal;
+    -webkit-box-shadow: 0px 5px 20px -11px $color-azul-principal;
+    -moz-box-shadow: 0px 5px 20px -11px $color-azul-principal;
+}
+@media screen and (max-width:768px) {
+    .fuenteCuerpo{
+        font-size: 0.7rem; 
+    }
+    .titulosTamaño{
+        font-size: 1rem;
+    }
+}

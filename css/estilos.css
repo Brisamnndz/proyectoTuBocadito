@@ -1,0 +1,215 @@
+
+@charset "UTF-8";
+/**No realice variables de los tamaños de pixeles porque no quiero que si tengo que modificar uno me cambie todos y tener que revisar si permanecen en el lugar correcto**/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@keyframes float {
+  0% {
+    transform: translateX(0);
+    transform: scale(0.8);
+  }
+  50% {
+    transform: translateX(-1000px);
+    transform: scale(1.2);
+  }
+  100% {
+    transform: translateX(0);
+    transform: scale(0.8);
+  }
+}
+main section .rotate {
+  transform: rotate(180deg);
+}
+main section .mora {
+  animation-name: float;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-delay: 3s;
+}
+main section .bgImg {
+  background-image: url(../assets/img/tartaInicio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 0 center;
+}
+main section .mora1 {
+  transition: transform 5s;
+  animation-delay: 0.5s;
+}
+main section .mora2 {
+  transition: transform 2s;
+  animation-delay: 1.5s;
+}
+main section .mora3 {
+  transition: transform 2s;
+  animation-delay: 1s;
+}
+main section .mora4 {
+  transition: transform 2s;
+  animation-delay: 1s;
+}
+main section .mora5 {
+  transition: transform 2s;
+  animation-delay: 1.5s;
+}
+main section .mora6 {
+  transition: transform 2s;
+  animation-delay: 0.5s;
+}
+main section .mora7 {
+  transition: transform 2s;
+  animation-delay: 1s;
+}
+main section .bf {
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+main section div .positionMapCard {
+  margin-right: 73px;
+  width: 442px;
+  position: absolute;
+  top: 500px;
+  right: 0px;
+}
+main section div .padGuardar {
+  padding: 12px 0px 12px 15px;
+}
+main section div .padCompartir {
+  padding: 11px 0px 8px 11px;
+}
+
+@media screen and (max-width: 768px) {
+  main section div .positionMapCard {
+    margin-right: 73px;
+    width: 442px;
+    position: absolute;
+    top: 800px;
+    right: 0px;
+  }
+  main section div .tamañoMap {
+    height: 400px;
+    width: 442px;
+    margin-left: 27px;
+  }
+}
+.titulosTamaño, .fuenteCuerpo {
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.fuenteCuerpo {
+  font-size: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #323030;
+}
+
+header nav div .height40 {
+  height: 40px;
+}
+header nav div .width40 {
+  width: 40px;
+}
+header nav div .padNot {
+  padding: 11px 13px 8px 13px;
+}
+header nav div .contBuscadorIco {
+  padding: 8px 0;
+}
+header nav div .navImg {
+  width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  header nav div .contenedorBuscadorMedia {
+    height: 30px;
+  }
+  header nav div .contBuscadorIcoMedia {
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+  }
+  header nav div .contNot {
+    padding: 8px;
+  }
+}
+.colorFuenteFooter {
+  color: #e7e7e7;
+}
+
+.tituloFoot {
+  font-size: 1.8rem;
+}
+
+.tamañoImgCard {
+  width: 150px;
+  height: 150px;
+}
+
+.bgImgLogo {
+  background-image: url(../assets/img/donasFondoBg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 0 center;
+}
+
+.tamañoImgGalleta {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.buttonInactive {
+  border: 1px solid #b6b8b8;
+}
+
+.bgGrey {
+  background-color: #e7e7e7;
+}
+
+.bgDark {
+  background-color: #323030;
+}
+
+.bgYellow {
+  background-color: #FEECC7;
+}
+
+.bgLightblue {
+  background-color: #ccf0f1;
+}
+
+.bordeNav {
+  border: 1px solid #00BCC5;
+}
+
+.colorAzulFuente {
+  color: #00BCC5;
+}
+
+.spanP {
+  font-weight: 700;
+}
+
+.confirmacionNav {
+  background-color: #00BCC5;
+  box-shadow: 0px 5px 20px -11px #00BCC5;
+  -webkit-box-shadow: 0px 5px 20px -11px #00BCC5;
+  -moz-box-shadow: 0px 5px 20px -11px #00BCC5;
+}
+
+@media screen and (max-width: 768px) {
+  .fuenteCuerpo {
+    font-size: 0.7rem;
+  }
+  .titulosTamaño, .fuenteCuerpo {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,44 @@
+
+header{
+    nav{
+        div{
+            .height40{
+                height: 40px;
+            }
+            .width40{
+                width: 40px;
+            }
+            .padNot{
+                padding: 11px 13px 8px 13px;
+            }
+            .contBuscadorIco{
+                padding: 8px 0;
+            }
+            .navImg{
+                width: auto;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    header{
+        nav{
+            div{
+                .contenedorBuscadorMedia{
+                    height: 30px;
+                }
+                .contBuscadorIcoMedia{
+                    width: 30px;
+                    height: 30px;
+                    padding: 4px;
+                }
+                .contNot{
+                    padding: 8px;
+                }
+            }
+        }
+    }
+    
+}

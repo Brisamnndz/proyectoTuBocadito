@@ -1,0 +1,120 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #323030;
+}
+.titulosTamaño{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.bordeNav{
+    border: 1px solid #00BCC5;
+}
+.confirmacionNav{
+    background-color: #00BCC5;
+    box-shadow: 0px 5px 20px -11px rgba(0,188,197,1);
+    -webkit-box-shadow: 0px 5px 20px -11px rgba(0,188,197,1);
+    -moz-box-shadow: 0px 5px 20px -11px rgba(0,188,197,1);
+}
+.padNot{
+    padding: 11px 13px 8px 13px;
+}
+.padGuardar{
+    padding: 12px 0px 12px 15px;
+}
+.padCompartir{
+    padding: 11px 0px 8px 11px;
+}
+.height40{
+    height: 40px;
+}
+.width40{
+    width: 40px;
+}
+.contBuscadorIco{
+    padding: 8px 0;
+}
+.navImg{
+    width: auto;
+    object-fit: cover;
+}
+.bgImg{
+    background-image: url(../assets/img/tartaInicio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right 0 center;
+}
+.positionMapCard{
+    margin-right: 73px;
+    width: 442px;
+    position: absolute;
+    top:500px;
+    right: 0px;
+}
+.bf{
+    backdrop-filter:blur(2px);
+}
+.buttonInactive{
+    border: 1px solid #b6b8b8;
+}
+.bgGrey{
+    background-color: #e7e7e7;
+}
+.bgDark{
+    background-color: #323030;
+}
+.bgYellow{
+background-color: #FEECC7;
+}
+.colorFuenteFooter{
+    color: #e7e7e7;
+}
+.tituloFoot{
+    font-size: 1.5rem;
+}
+.bgLightblue{
+    background-color: #ccf0f1;
+}
+.tamañoImgCard{
+    width: 150px; 
+    height: 150px; 
+}
+.tamañoImgGalleta{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+@media screen and (max-width:768px) {
+    .fuenteCuerpo{
+        font-size: 0.7rem; 
+    }
+    .titulosTamaño{
+        font-size: 1rem;
+    }
+    .contenedorBuscadorMedia{
+        height: 30px;
+    }
+    .contBuscadorIcoMedia{
+        width: 30px;
+        height: 30px;
+        padding: 4px;
+    }
+    .contNot{
+        padding: 8px;
+    }
+    .positionMapCard{
+        margin-right: 73px;
+        width: 442px;
+        position: absolute;
+        top:800px;
+        right: 0px;
+    }
+    .tamañoMap{
+        height: 400px;
+        width: 442px;
+        margin-left: 27px;
+    }
+}

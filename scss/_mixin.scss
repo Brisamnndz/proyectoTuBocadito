@@ -1,0 +1,14 @@
+
+@mixin mapCar ($top,$right) {
+ margin-right: 73px;
+ width: 442px;
+ position: absolute;
+ top: $top;
+ right: $right;  
+}
+@mixin imagenIndex ($url) {
+ background-image: $url ;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: right 0 center ;
+}

@@ -1,0 +1,8 @@
+
+.tamañoImgCard{
+    width: 150px; 
+    height: 150px; 
+}
+.bgImgLogo{
+    @include imagenIndex (url(../assets/img/donasFondoBg.jpg));
+}
