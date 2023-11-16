@@ -64,11 +64,11 @@ main section .bf {
           backdrop-filter: blur(2px);
 }
 main section div .positionMapCard {
-  margin-right: 73px;
-  width: 442px;
+  margin-right: 59px;
+  width: 460px;
   position: absolute;
   top: 500px;
-  right: 0px;
+  right: -10px;
 }
 main section div .padGuardar {
   padding: 12px 0px 12px 15px;
@@ -79,11 +79,11 @@ main section div .padCompartir {
 
 @media screen and (max-width: 768px) {
   main section div .positionMapCard {
-    margin-right: 73px;
-    width: 442px;
+    margin-right: 59px;
+    width: 460px;
     position: absolute;
-    top: 800px;
-    right: 0px;
+    top: 806px;
+    right: -52px;
   }
   main section div .tamañoMap {
     height: 400px;
