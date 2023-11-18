@@ -63,7 +63,7 @@ main{
         
         div{
             .positionMapCard{
-                @include mapCar (500px, 0px);
+                @include mapCar (500px, -10px);
             }
             .padGuardar{
                 padding: 12px 0px 12px 15px;
@@ -79,7 +79,7 @@ main{
         section{
             div{
                 .positionMapCard{
-                    @include mapCar (800px, 0px);
+                    @include mapCar (806px, -52px);
                 }
                 .tamañoMap{
                     height: 400px;

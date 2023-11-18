@@ -1,4 +1,3 @@
-
 .buttonInactive{
     border: 1px solid $color-gris-oscuro;
 }
@@ -29,11 +28,12 @@ background-color: $color-amarillo;
     -webkit-box-shadow: 0px 5px 20px -11px $color-azul-principal;
     -moz-box-shadow: 0px 5px 20px -11px $color-azul-principal;
 }
-@media screen and (max-width:768px) {
-    .fuenteCuerpo{
-        font-size: 0.7rem; 
-    }
-    .titulosTamaño{
-        font-size: 1rem;
-    }
+.colorRosa{
+    background-color: $color-rosa;
+}
+.height700{
+    height: 700px;
+}
+.bordeBuscador{
+    border: 1px solid $color-gris-oscuro;
 }
