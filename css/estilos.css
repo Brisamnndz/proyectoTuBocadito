@@ -1,94 +1,22 @@
 @charset "UTF-8";
 /**No realice variables de los tamaños de pixeles porque no quiero que si tengo que modificar uno me cambie todos y tener que revisar si permanecen en el lugar correcto**/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
-@keyframes float {
-  0% {
-    transform: translateX(0);
-    transform: scale(0.8);
-  }
-  50% {
-    transform: translateX(-1000px);
-    transform: scale(1.2);
-  }
-  100% {
-    transform: translateX(0);
-    transform: scale(0.8);
-  }
+.bglimon {
+  background-image: url(../assets/img/limoneros.jpg);
 }
-main section .rotate {
-  transform: rotate(180deg);
+
+.blanco50porciento {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.9613095238) 0%, rgba(241, 240, 237, 0.275035014) 100%);
 }
-main section .mora {
-  animation-name: float;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-out;
-  animation-delay: 3s;
-}
-main section .bgImg {
-  background-image: url(../assets/img/tartaInicio.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right 0 center;
-}
-main section .mora1 {
-  transition: transform 5s;
-  animation-delay: 0.5s;
-}
-main section .mora2 {
-  transition: transform 2s;
-  animation-delay: 1.5s;
-}
-main section .mora3 {
-  transition: transform 2s;
-  animation-delay: 1s;
-}
-main section .mora4 {
-  transition: transform 2s;
-  animation-delay: 1s;
-}
-main section .mora5 {
-  transition: transform 2s;
-  animation-delay: 1.5s;
-}
-main section .mora6 {
-  transition: transform 2s;
-  animation-delay: 0.5s;
-}
-main section .mora7 {
-  transition: transform 2s;
-  animation-delay: 1s;
-}
-main section .bf {
-  -webkit-backdrop-filter: blur(2px);
-          backdrop-filter: blur(2px);
-}
-main section div .positionMapCard {
-  margin-right: 59px;
-  width: 460px;
-  position: absolute;
-  top: 500px;
-  right: -10px;
-}
-main section div .padGuardar {
-  padding: 12px 0px 12px 15px;
-}
-main section div .padCompartir {
-  padding: 11px 0px 8px 11px;
+
+.bf4 {
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
 }
 
 @media screen and (max-width: 768px) {
-  main section div .positionMapCard {
-    margin-right: 59px;
-    width: 460px;
-    position: absolute;
-    top: 806px;
-    right: -52px;
-  }
-  main section div .tamañoMap {
-    height: 400px;
-    width: 442px;
-    margin-left: 27px;
+  .bglimon {
+    background-image: none;
   }
 }
 .titulosTamaño, .fuenteCuerpo {
@@ -222,4 +150,95 @@ header nav div .navImg {
 
 .bordeBuscador {
   border: 1px solid #b6b8b8;
+}
+
+@keyframes float {
+  0% {
+    transform: translateX(0);
+    transform: scale(0.8);
+  }
+  50% {
+    transform: translateX(-1000px);
+    transform: scale(1.2);
+  }
+  100% {
+    transform: translateX(0);
+    transform: scale(0.8);
+  }
+}
+main section .rotate {
+  transform: rotate(180deg);
+}
+main section .mora {
+  animation-name: float;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-delay: 3s;
+}
+main section .bgImg {
+  background-image: url(../assets/img/tartaInicio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 0 center;
+}
+main section .mora1 {
+  transition: transform 5s;
+  animation-delay: 0.5s;
+}
+main section .mora2 {
+  transition: transform 2s;
+  animation-delay: 1.5s;
+}
+main section .mora3 {
+  transition: transform 2s;
+  animation-delay: 1s;
+}
+main section .mora4 {
+  transition: transform 2s;
+  animation-delay: 1s;
+}
+main section .mora5 {
+  transition: transform 2s;
+  animation-delay: 1.5s;
+}
+main section .mora6 {
+  transition: transform 2s;
+  animation-delay: 0.5s;
+}
+main section .mora7 {
+  transition: transform 2s;
+  animation-delay: 1s;
+}
+main section .bf {
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+main section div .positionMapCard {
+  margin-right: 59px;
+  width: 460px;
+  position: absolute;
+  top: 500px;
+  right: -10px;
+}
+main section div .padGuardar {
+  padding: 12px 0px 12px 15px;
+}
+main section div .padCompartir {
+  padding: 11px 0px 8px 11px;
+}
+
+@media screen and (max-width: 768px) {
+  main section div .positionMapCard {
+    margin-right: 59px;
+    width: 460px;
+    position: absolute;
+    top: 806px;
+    right: -52px;
+  }
+  main section div .tamañoMap {
+    height: 400px;
+    width: 442px;
+    margin-left: 27px;
+  }
 }/*# sourceMappingURL=estilos.css.map */
