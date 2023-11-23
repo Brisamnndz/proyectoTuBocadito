@@ -1,92 +1,14 @@
-
-main{
-    section{
-        @keyframes float {
-            0%{
-             transform: translateX(0);
-             transform: scale(0.8);
-            }
-            50%{
-             transform: translateX(-1000px);
-             transform: scale(1.2);
-            }
-            100%{
-             transform: translateX(0); 
-             transform: scale(0.8);
-            }
-            
-        }
-        .rotate{
-            transform:rotate(180deg);
-        }
-        .mora{
-            animation-name: float;
-            animation-duration: 20s;
-            animation-iteration-count: infinite;
-            animation-timing-function: ease-out;
-            animation-delay: 3s;
-        }
-        .bgImg{
-            @include imagenIndex (url(../assets/img/tartaInicio.jpg));
-        }
-        .mora1{
-            transition: transform 5s;
-            animation-delay: 0.5s; 
-        }
-        .mora2{
-           transition: transform 2s;
-           animation-delay: 1.5s; 
-        }
-        .mora3{
-           transition: transform 2s;
-           animation-delay: 1s; 
-        }
-        .mora4{
-           transition: transform 2s;
-            animation-delay: 1s; 
-        }
-        .mora5{
-           transition: transform 2s;
-           animation-delay: 1.5s; 
-         }
-        .mora6{
-           transition: transform 2s;
-           animation-delay: 0.5s; 
-         }
-        .mora7{
-          transition: transform 2s;
-          animation-delay: 1s; 
-         }
-        .bf{
-            backdrop-filter:blur(2px);
-         }
-        
-        div{
-            .positionMapCard{
-                @include mapCar (500px, -10px);
-            }
-            .padGuardar{
-                padding: 12px 0px 12px 15px;
-            }
-            .padCompartir{
-                padding: 11px 0px 8px 11px;
-            }
-        }
-    }
+.bglimon{
+    background-image: url(../assets/img/limoneros.jpg);
+}
+.blanco50porciento{
+    background: linear-gradient(0deg, rgba(255,255,255,0.9613095238095238) 0%, rgba(241,240,237,0.27503501400560226) 100%);
+}
+.bf4{
+    backdrop-filter:blur(4px);
 }
 @media screen and (max-width:768px) {
-    main{
-        section{
-            div{
-                .positionMapCard{
-                    @include mapCar (806px, -52px);
-                }
-                .tamañoMap{
-                    height: 400px;
-                    width: 442px;
-                    margin-left: 27px;
-                }
-            }
-        }
+    .bglimon{
+        background-image: none;
     }
 }
